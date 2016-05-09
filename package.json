@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Auto grow textarea fields",
   "author": "Gary <gravity.addiction@gmail.com>",
-  "license": "License-Ref"
+  "license": "License-Ref",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  }
 }
