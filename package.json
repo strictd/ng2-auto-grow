@@ -1,0 +1,7 @@
+{
+  "name": "@strictd/auto-grow",
+  "version": "1.0.0",
+  "description": "Auto grow textarea fields",
+  "author": "Gary <gravity.addiction@gmail.com>",
+  "license": "License-Ref"
+}
