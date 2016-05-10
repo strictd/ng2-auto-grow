@@ -1,3 +1,4 @@
+"use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -31,10 +32,9 @@ var AutoGrowDirective = (function () {
         core_1.Directive({
             selector: '[autoGrow]'
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof core_1.ElementRef !== 'undefined' && core_1.ElementRef) === 'function' && _a) || Object])
+        __metadata('design:paramtypes', [core_1.ElementRef])
     ], AutoGrowDirective);
     return AutoGrowDirective;
-    var _a;
-})();
+}());
 exports.AutoGrowDirective = AutoGrowDirective;
 //# sourceMappingURL=auto-grow.js.map

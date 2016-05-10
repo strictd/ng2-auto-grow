@@ -12,7 +12,7 @@ export class AutoGrowDirective {
         el.nativeElement.style.height = ((el.nativeElement.scrollHeight - correction) + 10) + 'px';
       }, 0);
   }
-  @HostListener('input', ['$event.target']) onMouseEnter(textArea) {
+  @HostListener('input', ['$event.target']) onMouseEnter(textArea: any) {
     textArea.style.height = 'auto';
 
     let correction = textArea.offsetHeight - textArea.clientHeight;
@@ -20,4 +20,3 @@ export class AutoGrowDirective {
   }
 
 }
-

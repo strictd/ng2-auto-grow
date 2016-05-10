@@ -1,5 +1,5 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.10",
     "compilerOptions": {
         "outDir": "../",
         "target": "es5",
@@ -15,7 +15,6 @@
         "declaration": true
     },
     "exclude": [
-        "build",
         "node_modules",
         "typings/browser.d.ts",
         "typings/browser"
