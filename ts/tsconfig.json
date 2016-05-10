@@ -1,12 +1,15 @@
 {
     "version": "1.8.0",
     "compilerOptions": {
-        "outDir": "build/es5",
+        "outDir": "../",
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
         "sourceMap": true,
         "noImplicitAny": true,
         "declaration": true
@@ -18,4 +21,3 @@
         "typings/browser"
     ]
 }
-
