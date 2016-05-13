@@ -3,7 +3,6 @@
   "version": "1.0.5",
   "description": "Auto grow textarea fields",
   "main": "auto-grow.js",
-  "private": true,
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "License-Ref",
   "dependencies": {
