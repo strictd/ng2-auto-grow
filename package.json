@@ -1,18 +1,18 @@
 {
   "name": "@strictd/auto-grow",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Auto grow textarea fields",
   "main": "auto-grow.js",
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "License-Ref",
   "dependencies": {
-    "@angular/core": "2.0.0-rc.1"
+    "@angular/core": "2.0.0-rc.4"
   },
   "devDependencies": {
-    "@angular/common": "^2.0.0-rc.1",
-    "@angular/compiler": "^2.0.0-rc.1",
-    "@angular/platform-browser": "^2.0.0-rc.1",
-    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
     "es6-shim": "^0.35.0",
     "typescript": "~1.5.3",
     "reflect-metadata": "0.1.2",
