@@ -14,8 +14,11 @@
     "noImplicitAny": true,
     "declaration": true
   },
+  "files": [
+    "index.ts",
+    "auto-grow.ts"
+  ],
   "filesGlob": [
-    "**/*.ts",
     "!node_modules/**/*"
   ],    
   "exclude": [
