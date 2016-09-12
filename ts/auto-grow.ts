@@ -7,10 +7,10 @@ import {Directive, ElementRef, HostListener} from '@angular/core';
 export class AutoGrowDirective {
 
   constructor(private el: ElementRef) {
-      setTimeout(function() {
-        let correction = el.nativeElement.offsetHeight - el.nativeElement.clientHeight;
-        el.nativeElement.style.height = ((el.nativeElement.scrollHeight - correction) + 10) + 'px';
-      }, 0);
+    setTimeout(function() {
+      let correction = el.nativeElement.offsetHeight - el.nativeElement.clientHeight;
+      el.nativeElement.style.height = ((el.nativeElement.scrollHeight - correction) + 10) + 'px';
+    }, 0);
   }
   @HostListener('input', ['$event.target']) onMouseEnter(textArea: any) {
     textArea.style.height = 'auto';
