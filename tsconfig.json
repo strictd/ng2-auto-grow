@@ -15,10 +15,8 @@
     "declaration": true
   },
   "files": [
+    "src/index.ts",
     "src/auto-grow.ts"
-  ],
-  "filesGlob": [
-    "!node_modules/**/*"
   ],    
   "exclude": [
     "node_modules"
