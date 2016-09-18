@@ -4,7 +4,7 @@
     "lint": "tslint --force --config tslint.json --exclude \"node_modules/**/*\" \"**/*.ts\"",
     "prepublish": "tsc"
   },
-  "author": "Gary <gravity.addiction@gmail.com>",
+  "author": "Gary <gary@strictdevelopment.com>",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "@angular/core": "^2.0.0",
