@@ -15,7 +15,6 @@
     "declaration": true
   },
   "files": [
-    "index.ts",
     "auto-grow.ts"
   ],
   "filesGlob": [
