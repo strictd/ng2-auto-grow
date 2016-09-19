@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strictd/auto-grow.git"
+    "url": "git+https://github.com/strictd/ng2-auto-grow.git"
   },
   "dependencies": {
     "@angular/core": "^2.0.0",
