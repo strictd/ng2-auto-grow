@@ -1,7 +1,12 @@
 {
   "name": "@strictd/auto-grow",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Auto grow textarea fields",
+  "keywords": [
+    "angular2",
+    "textarea",
+    "autogrow"
+  ],
   "main": "auto-grow.js",
   "author": "Gary <gary@strictdevelopment.com>",
   "license": "MIT",
