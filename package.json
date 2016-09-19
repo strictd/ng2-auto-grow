@@ -1,6 +1,6 @@
 {
   "name": "@strictd/auto-grow",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Auto grow textarea fields",
   "main": "auto-grow.js",
   "author": "Gary <gary@strictdevelopment.com>",
